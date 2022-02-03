@@ -1,0 +1,44 @@
+body {
+   background-color: rgb(16, 17, 18);
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+
+   /* make all text unselectable */
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+   /* These are to fix navbar */
+   padding:0;
+   margin:0;
+}
+
+.topBar {
+   background-color: rgb(26, 27, 28);
+   text-align: left;
+   padding:0;
+   margin:0;
+   font-size: 35px;
+}
+
+/*.gridContainer {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+*/
+
+#arrowL {
+   margin-left: -29%;
+   margin-top: 17%;
+   position: absolute;
+}
+
+#arrowR {
+   margin-left: 22%;
+   margin-top: 17%;
+   position: absolute;
+}
